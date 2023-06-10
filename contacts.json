@@ -1,0 +1,27 @@
+{
+
+    "contact": {
+        "firstName": "Daniel",
+        "lastName": "Johnson",
+        "email": "danieljohnson123@gmail.com",
+        "favoriteColor": "Black",
+        "birthday": "12/20/1996"
+    },
+
+    "contact2": {
+        "firstName": "David",
+        "lastName": "Nunez",
+        "email": "davidnunez@hotmail.com",
+        "favoriteColor": "Red",
+        "birthday": "4/15/1999"
+    },
+
+    "contact3": {
+        "firstName": "Jake",
+        "lastName": "Smith",
+        "email": "jakesmith@gmail.com",
+        "favoriteColor": "Blue",
+        "birthday": "6/1/2002"
+    }
+    
+}
