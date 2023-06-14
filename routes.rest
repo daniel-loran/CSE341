@@ -1,5 +1,70 @@
 // LOCALHOST ### 
 GET http://localhost:8080/contacts 
-### 
-GET http://localhost:8080/contacts/6484f697a2fd86034914df2c
+### Get contact by id 
+GET http://localhost:8080/contacts/6487c9877ae4b456bc010b61
+### Get contact by id 
+GET http://localhost:8080/contacts/6487c9dc7ae4b456bc010b62
+### Get contact by id 
+GET http://localhost:8080/contacts/6487ca0b7ae4b456bc010b63
 
+### Create contact 
+POST http://localhost:8080/contacts HTTP/1.1 
+content-type: application/json
+
+{
+    "firstName":"Jesus", 
+    "lastName":"Ramirez", 
+    "email":"jesusramirez@gmail.com", 
+    "favoriteColor":"Brown", 
+    "birthday":"1/5/1999"
+}
+
+### PUT contact 
+PUT http://localhost:8080/contacts/64892f9d3b6f5ebdce9caff8 HTTP/1.1 
+content-type: application/json
+
+{
+"firstName":"Jesus", 
+"lastName":"Ramirez", 
+"email":"jesusramirez@hotmail.com", 
+"favoriteColor":"Green", 
+"birthday":"1/5/1999"
+} 
+### DELETE contact 
+DELETE http://localhost:8080/contacts/64892f9d3b6f5ebdce9caff8 HTTP/1.1
+
+// RENDER ##
+###
+GET https://cse341-personal-project2.onrender.com/contacts
+### Get contact by id 
+GET https://cse341-personal-project2.onrender.com/contacts/6487c9877ae4b456bc010b61
+### Get contact by id 
+GET https://cse341-personal-project2.onrender.com/contacts/6487c9dc7ae4b456bc010b62
+### Get contact by id 
+GET https://cse341-personal-project2.onrender.com/contacts/6487ca0b7ae4b456bc010b63
+
+### Create contact 
+POST https://cse341-personal-project2.onrender.com/contacts HTTP/1.1 
+content-type: application/json
+
+{
+    "firstName":"Jesus", 
+    "lastName":"Ramirez", 
+    "email":"jesusramirez@gmail.com", 
+    "favoriteColor":"Brown", 
+    "birthday":"1/5/1999"
+}
+
+### PUT contact 
+PUT https://cse341-personal-project2.onrender.com/contacts/6220bcb39cd507e920c75a0b HTTP/1.1 
+content-type: application/json
+
+{
+"firstName":"Jesus", 
+"lastName":"Ramirez", 
+"email":"jesusramirez@hotmail.com", 
+"favoriteColor":"Green", 
+"birthday":"1/5/1999"
+} 
+### DELETE contact 
+DELETE https://cse341-personal-project2.onrender.com/contacts/6220e34083149913680f9a64 HTTP/1.1
