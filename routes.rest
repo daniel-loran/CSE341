@@ -20,7 +20,7 @@ content-type: application/json
 }
 
 ### PUT contact 
-PUT http://localhost:8080/contacts/64892f9d3b6f5ebdce9caff8 HTTP/1.1 
+PUT http://localhost:8080/contacts/648957623b6f5ebdce9caffa HTTP/1.1 
 content-type: application/json
 
 {
@@ -31,7 +31,7 @@ content-type: application/json
 "birthday":"1/5/1999"
 } 
 ### DELETE contact 
-DELETE http://localhost:8080/contacts/64892f9d3b6f5ebdce9caff8 HTTP/1.1
+DELETE http://localhost:8080/contacts/648957623b6f5ebdce9caffa HTTP/1.1
 
 // RENDER ##
 ###
@@ -56,7 +56,7 @@ content-type: application/json
 }
 
 ### PUT contact 
-PUT https://cse341-personal-project2.onrender.com/contacts/6220bcb39cd507e920c75a0b HTTP/1.1 
+PUT https://cse341-personal-project2.onrender.com/contacts/648957c846eb15a1fc61e9d0 HTTP/1.1 
 content-type: application/json
 
 {
@@ -67,4 +67,4 @@ content-type: application/json
 "birthday":"1/5/1999"
 } 
 ### DELETE contact 
-DELETE https://cse341-personal-project2.onrender.com/contacts/6220e34083149913680f9a64 HTTP/1.1
+DELETE https://cse341-personal-project2.onrender.com/contacts/648957c846eb15a1fc61e9d0 HTTP/1.1
